@@ -1,0 +1,277 @@
+/* HOME PAGE */
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.background {
+	min-height: 100%;
+	background-color: #101010;
+	height: 100%;
+	width: 100%;
+ 	}
+.background img {
+	height: 600px;
+	width: 770px;
+	float: right;
+	padding-right: 10%
+}
+
+.nav {
+	padding-right: 13%;
+	padding-top: 3%;
+	font-size: 28px;
+	}
+.nav li a {
+	color: #FFFFFF
+	}
+.nav .nav-link{
+	color: #FFFFFF
+	}
+
+span{
+	color: #45A29E;
+	}
+.intro {
+	padding-left: 15%;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	color: #FFFFFF
+	}
+h1 {
+	font-size: 50px;
+	}
+h4 {
+	color: #C5C6C7;
+	}
+/* ABOUT PAGE */
+.about{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #1A1A1A;
+	}
+.about-text{
+	padding-left: 20px;
+	width: 550px;
+	}
+.main {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	 }
+.about-text h2{
+	color: #66FCF1;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	}
+.about-text h5{
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	}
+.about-text p{
+	color: #C5C6C7;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	}
+
+	/* Slideshow container */
+	 .carousel-item {
+		position: relative;
+		width: 430px !important;
+		height: 370px !important;
+		background: #1A1A1A !important
+	}
+	 .active.carousel-item-start, .carousel-item-prev:not(.carousel-item-end){
+	display: none !important;
+	}
+	.carousel-inner {
+		background-color: #1A1A1A !important;
+	}
+	/* Caption text */
+	.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	.active {
+	  background-color: #717171;
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
+
+/* CONTACT PAGE*/
+	.contact{
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #101010;
+		}
+	.contact img{
+		height: auto;
+		width: 430px;
+		}
+
+	.contact-text{
+		width: 450px;
+		}
+	.maincontact {
+		width: 1130px;
+		max-width: 95%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		 }
+	.contact-text h2{
+		color: #66FCF1;
+		font-size: 75px;
+		text-transform: capitalize;
+		margin-bottom: 20px;
+		}
+	.contact-text h5{
+		color: #FFFFFF;
+		letter-spacing: 2px;
+		font-size: 22px;
+		margin-bottom: 25px;
+		text-transform: capitalize;
+		}
+	.contact-text p{
+		color: #C5C6C7;
+		letter-spacing: 1px;
+		line-height: 28px;
+		font-size: 18px;
+		margin-bottom: 45px;
+		}
+	.linkedin {
+		color: #45A29E;
+	}
+	a:hover {
+		color: #45A29E;
+	}
+	.mail {
+		color: #45A29E;
+	}
+	a:hover{
+		color: #45A29E;
+	}
+
+/* RESUME PAGE */
+.resume{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-color: #101010;
+	}
+.resume-text{
+	width: 800x;
+	}
+.mainresume {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	 }
+.resume-text h2{
+	color: #66FCF1;
+	font-size: 64px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	}
+
+	.s1 {
+		color: #C5C6C7;
+		font-family: 'Josefin Sans', serif;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 13pt;
+	}
+	.s2 {
+		color: #C5C6C7;
+		font-family: 'Josefin Sans', serif;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 9.5pt;
+	}
+	.s3 {
+		color: #C5C6C7;
+		font-family: 'Josefin Sans', serif;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 9.5pt;
+	}
+	.s5 { color: #C5C6C7;
+		font-family: 'Josefin Sans', serif;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 9.5pt;
+	 }
+	.p, p {
+		color: #C5C6C7;
+		font-family: 'Josefin Sans', serif;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 9.5pt;
+		margin:0pt;
+	 }
+	.s6 {
+		color: #C5C6C7;
+		font-family: 'Josefin Sans', serif;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 9.5pt;
+		vertical-align: 1pt; }
+	.blu {
+		color: #66FCF1
+	}
+.resume-text2 {
+	width: 750px;
+}
+
+
+/*DISCLAIMER*/
+.copyright{
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #1A1A1A;
+	text-align: center;
+	}
+	.copyright-text{
+		font-size: 12px;
+		}
